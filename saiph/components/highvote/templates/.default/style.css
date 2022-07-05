@@ -1,0 +1,20 @@
+.vote-button {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 13px;
+    margin-right: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.vote-button--down {
+    background-color: #b85252;
+}
+
+.vote-button--up {
+    background-color: rgb(77, 114, 69);
+}
+
+.vote-button--disable {
+    background-color: #848484;
+}

@@ -1,0 +1,40 @@
+.user-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #ffd300;
+    font-size: 15px;
+    background: #fff!important;
+}
+.user-table th {
+    font-weight: bold;
+    padding: 7px;
+    background: #ffd300;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #ffd300;
+}
+.user-table td {
+    padding: 7px;
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+}
+
+.user-table tr {
+    cursor: pointer;
+}
+.user-table tbody tr:hover, .user-table tbody tr:nth-child(even):hover {
+    background-color: #fff8cb;
+    color: #7fa5c4;
+}
+
+.user-table tbody tr:nth-child(even){
+    background-color: #f8f8f8;
+}
